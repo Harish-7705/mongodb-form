@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(16, 21, 36);
+}
+.container{
+    padding:10px;
+    max-width: 450px;
+    margin:100px auto;
+    background-color: RGB(20, 40, 60);
+    color: white;
+    box-shadow: 0 0 50px gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form label{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+form input,select{
+    padding: 8px;
+}
+form button{
+    padding: 8px;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;   
+}
